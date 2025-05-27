@@ -1,7 +1,7 @@
 # 💳 Bank Credit Risk Assessment Project
 
 A machine learning project for case study 1 that predicts **Bank Customer Credit Risk Assessment** 
-based on financial features such as Income, Debt, Credit History Rating, Family status, Gender, Possibility of Default and more.
+based on financial features such as Income, Scoring Marks, Debt, Credit History Rating, Family status, Gender, Possibility of Default and more.
 Adding statistical analysis to gain more insight into the datasets.
 Built using Python, Pandas, scikit-learn, and visualised with matplotlib & seaborn. 
     

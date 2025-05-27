@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "datetime>=5.5",
     "ipykernel>=6.29.5",
     "jupyter>=1.1.1",
     "lazypredict>=0.2.16",
@@ -12,5 +13,6 @@ dependencies = [
     "numpy>=2.2.6",
     "pandas>=2.2.3",
     "scikit-learn>=1.6.1",
+    "scipy>=1.15.3",
     "seaborn>=0.13.2",
 ]
