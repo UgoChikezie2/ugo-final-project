@@ -9,14 +9,14 @@ Built using Python, Pandas, scikit-learn, and visualised with matplotlib & seabo
     
 ## 📌 Project Goals
     
-- Understand the relationship between income, debt, family status, Credit History Rating, SEX, PDN and Scoring Mark.
-- Build predictive models using:
-- Linear Regression
-- Random Forest
-- Gradient Boosting
-- K-nearest neighbours
-- Ada Boosting Classifier
-- Bagging Classifier
+- To predict Customer Credit Risk Assessment (PDN) using income, debt, family status, Credit History Rating, SEX, and Scoring Mark.
+- To build predictive models using:
+- Linear Regressor
+- Random Forest Regressor
+- Gradient Boosting Regressor
+- K-nearest neighbours Regressor
+- Ada Boosting Regressor
+- Bagging Regressor
 - Evaluate model performance and select the best one.
     
 ## 📁 Dataset
@@ -28,14 +28,17 @@ Built using Python, Pandas, scikit-learn, and visualised with matplotlib & seabo
 - `Debt`
 - `SEX`
 - `Family status`
-- `PDN`
+- `PDN` *(target)*
 - `Age`
 - `Credit History Rating`
 - `Initial Limit`
-- `Scoring Mark` *(target)*")
+- `Scoring Mark` 
 
-## 📁 Data Cleaning And Wrangling
+## 📁 Data Cleaning And Wrangling 
 
+- Checked for positively and negatively skewed columns and transformed them to fit for prediction and visualisation. 
+- Checked for the relationship between numerical and categorical columns using the Chi-Square Test.
+- Checked for the relationship between averages using the ANOVA test.
 - Checked and removed NaN values 
 - Translation of Column names from Russian to English
 - Conversion of column datatypes from float to string (object)
